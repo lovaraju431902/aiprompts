@@ -580,7 +580,7 @@ const VideoPreviewGallery: React.FC<VideoPreviewGalleryProps> = ({
 
       <div className="w-full max-w-7xl">
         {/* Grid Layout: 1 column (mobile), 2 columns (medium), 3 columns (large) */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
           {videos.map((video) => (
             <div key={video.id} className="w-full">
               <div className="relative group rounded-2xl overflow-hidden aspect-video bg-gray-800 shadow-2xl hover:shadow-red-600/20 transition-shadow duration-300">
