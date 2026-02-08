@@ -573,7 +573,7 @@ const VideoPreviewGallery: React.FC<VideoPreviewGalleryProps> = ({
   }
 
   return (
-    <div className="min-h-screen bg-black flex flex-col items-center justify-center px-4 py-8">
+    <div className="min-h-screen bg-gradient-to-br from-green-50/50 via-blue-50/50 to-white flex flex-col items-center justify-center px-4 py-8">
       <h1 className="text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-8 md:mb-12 text-center">
         {title}
       </h1>
